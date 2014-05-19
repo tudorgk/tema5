@@ -4,8 +4,8 @@
 
 1. Creati o baza de date in MySQL cu orice nume doriti.
 2. Importati in baza de date scriptul tema5.sql.
-3. Faceti configurarile necesare in `config.php`
-4. Creati un server VirtualHost in Apache
+3. Faceti configurarile necesare in `config.php`.
+4. Creati un server VirtualHost in Apache:
 
     `
     <VirtualHost *:80>
@@ -16,8 +16,8 @@
     </VirtualHost>
     `
 
-5. Copiati tot continutul in folderul setat pentru VirtualHost
-6. Apelati index.php cu parametrul `page` setat
+5. Copiati tot continutul in folderul setat pentru VirtualHost.
+6. Apelati index.php cu parametrul `page` setat.
 
     Ex: `http://localhost/index.php?page=1`
 
